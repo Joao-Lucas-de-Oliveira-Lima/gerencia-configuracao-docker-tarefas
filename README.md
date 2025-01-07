@@ -50,7 +50,7 @@ Isso irá construir e executar a imagem Docker especificada no arquivo `Dockerfi
 
 Após executar o container, a aplicação estará disponível em:  
 
-**[http://localhost:3003/api](http://localhost:3003/api)**
+**[http://localhost:3003/api](http://localhost:3000/api)**
 
 
 Os logs gerados podem ser encontrados em `./logs/dockerVolumeTest.log` no host.
