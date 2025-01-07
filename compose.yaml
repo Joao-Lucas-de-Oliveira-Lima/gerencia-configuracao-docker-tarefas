@@ -1,0 +1,11 @@
+services:
+  api:
+    build:
+      context: .
+    ports:
+      - 3000:${SERVER_PORT:-3000}
+    volumes:
+      - ./logs:/logs:rw
+    restart: on-failure
+    environment:
+      - SERVER_PORT=${SERVER_PORT:-3000}
